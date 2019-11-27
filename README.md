@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: yarn
-      - uses: shiftlab/pr-conventions@v1
+      - uses: shiftlab/pr-conventions@v1.0.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 ```
